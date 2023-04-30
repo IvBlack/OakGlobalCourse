@@ -1,5 +1,6 @@
+package com.IVdev.Core1.PrimitiveTypes;
 
-class Ops {
+class ArythmeticOps {
 
     public static void main(String[] args) {
         double k = 10 / 4;     // 2
@@ -44,5 +45,6 @@ class Ops {
 
 
 }
+
 
 

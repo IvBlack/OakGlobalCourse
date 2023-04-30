@@ -1,3 +1,5 @@
+package com.IVdev.Core1.PrimitiveTypes;
+
 public class MonitorCounter {
     public static void main(String[] args) {
         int i = drawisMonitorsCounter(59, 50);
