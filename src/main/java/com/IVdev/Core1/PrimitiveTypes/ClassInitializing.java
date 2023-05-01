@@ -14,9 +14,6 @@ public class ClassInitializing {
         //инициализируем класс А и стат.блок последовательно
         //результат виден в консоли
         A a = new A();
-//        System.out.println(A.st);
-
-
     }
 }
 
