@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="KataGlobalCourse" />
+        <module name="Refresh1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="KataGlobalCourse" target="17" />
+      <module name="OakGlobalCourse" target="17" />
+      <module name="Refresh1" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

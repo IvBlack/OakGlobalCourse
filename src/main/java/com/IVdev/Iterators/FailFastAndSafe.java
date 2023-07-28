@@ -1,3 +1,5 @@
+package com.IVdev.Iterators;
+
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 
@@ -43,7 +45,7 @@ public class FailFastAndSafe {
         while (it.hasNext()) {
             String server = it.next();
             System.out.println(server);
-            servers.add("Jetty"); // !!!!add after ierator creating 
+            servers.add("Jetty"); // !!!!add after iterator creating
         }
     }
 }
