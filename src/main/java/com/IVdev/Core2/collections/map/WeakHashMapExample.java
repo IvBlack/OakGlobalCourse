@@ -1,4 +1,4 @@
-package com.IVdev.collections.map;
+package com.IVdev.Core2.collections.map;
 
 import java.util.Map;
 import java.util.WeakHashMap;

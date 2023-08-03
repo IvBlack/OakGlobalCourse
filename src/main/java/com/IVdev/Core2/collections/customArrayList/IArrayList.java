@@ -1,4 +1,4 @@
-package com.IVdev.collections.customArrayList;
+package com.IVdev.Core2.collections.customArrayList;
 
 public interface IArrayList<E> extends Iterable{
     boolean add(E e);
