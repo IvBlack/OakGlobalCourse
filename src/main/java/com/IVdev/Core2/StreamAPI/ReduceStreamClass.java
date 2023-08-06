@@ -15,7 +15,7 @@ public class ReduceStreamClass {
         list.add(2);
         list.add(6);
 
-        //лямбда с двумя параметрами
+        //является терминальным методом, принимаеи лямбду с двумя параметрами
         //accumulator накапливает значение по итерации elem
         //метод get() обязателен, т.к. reduce возращает Optional
         int result = list.stream().reduce((accumulator, elem) 
