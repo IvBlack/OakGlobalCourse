@@ -1,4 +1,4 @@
-package com.IVdev.OOP.incapsulation;
+package com.IVdev.Core1.PrimitiveTypes.OOP.incapsulation;
 
 public class Ssd {
     private int value;

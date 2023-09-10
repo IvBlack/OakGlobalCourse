@@ -1,4 +1,6 @@
-package com.IVdev.OOP.incapsulation;
+package com.IVdev.Core1.PrimitiveTypes.OOP.incapsulation;
+
+import org.w3c.dom.ls.LSOutput;
 
 public class Computer {
     /*
@@ -9,9 +11,21 @@ public class Computer {
     private Ssd ssd;
     private Ram ram;
 
+    {
+        System.out.println("Init block PC");
+    }
+
+    static {
+        System.out.println("Static block PC");
+    }
+
     public Computer(Ssd ssd, Ram ram) {
         this.ssd = ssd;
         this.ram = ram;
+    }
+
+    public Computer() {
+        System.out.println("Constructor computer");
     }
 
     //открытая часть класса, можно использовать другими классами
