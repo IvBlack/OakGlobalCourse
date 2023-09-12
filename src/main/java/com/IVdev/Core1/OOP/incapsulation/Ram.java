@@ -1,4 +1,4 @@
-package com.IVdev.Core1.PrimitiveTypes.OOP.incapsulation;
+package com.IVdev.Core1.OOP.incapsulation;
 
 public class Ram {
     private int value;

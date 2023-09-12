@@ -1,6 +1,6 @@
-package com.IVdev.Core1.PrimitiveTypes.OOP.incapsulation;
+package com.IVdev.Core1.OOP.incapsulation;
 
-import com.IVdev.Core1.PrimitiveTypes.OOP.inheritance.Laptop;
+import com.IVdev.Core1.OOP.inheritance.Laptop;
 
 public class OOPRunner {
     public static void main(String[] args) {

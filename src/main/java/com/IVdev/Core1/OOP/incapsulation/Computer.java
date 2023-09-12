@@ -1,6 +1,4 @@
-package com.IVdev.Core1.PrimitiveTypes.OOP.incapsulation;
-
-import org.w3c.dom.ls.LSOutput;
+package com.IVdev.Core1.OOP.incapsulation;
 
 public class Computer {
     /*

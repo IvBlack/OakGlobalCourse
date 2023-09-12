@@ -1,8 +1,8 @@
-package com.IVdev.Core1.PrimitiveTypes.OOP.inheritance;
+package com.IVdev.Core1.OOP.inheritance;
 
-import com.IVdev.Core1.PrimitiveTypes.OOP.incapsulation.Computer;
-import com.IVdev.Core1.PrimitiveTypes.OOP.incapsulation.Ram;
-import com.IVdev.Core1.PrimitiveTypes.OOP.incapsulation.Ssd;
+import com.IVdev.Core1.OOP.incapsulation.Computer;
+import com.IVdev.Core1.OOP.incapsulation.Ram;
+import com.IVdev.Core1.OOP.incapsulation.Ssd;
 
 /*
 Наследование - свойство класса использовать функционал родительского класса +
