@@ -13,8 +13,15 @@ public class StackEx2 {
         stack.push("Yan");
         System.out.println(stack);
 
-        //метод pop извлекает элемент из вершины стэка и удаляет его
-        System.out.println(stack.pop());
+//        while(!stack.isEmpty()) {z
+
+//            //метод pop извлекает элемент из вершины стэка и удаляет его
+//            System.out.println(stack.pop());
+//            System.out.println(stack);
+//        }
+
+        //peek используется для извлечения элемента на вершине стека БЕЗ его удаления
+        System.out.println(stack.peek());
         System.out.println(stack);
     }
 }

@@ -10,6 +10,24 @@ public class Car {
     static int count;
     int a = 10;
 
+    /*****************************
+    Имена идентификаторов могут начинаться с:
+    - прописных и заглавных букв
+    - символов валюты (любой валюты), причем в любом месте
+    - с нижнего подчеркивания (underscore)
+    - иметь имена ссылочных типов данных (String, Integer и пр.)
+     - имена констант - всегда заглавные
+
+    Не могут:
+    - с цифры
+    - иметь имена зарезервированных слов
+    */
+    String _$4Asfdf$dt = "8";
+    //int true = 7;
+    int String = 645645;
+    final int XYZ = 3;
+
+
     //можно обратиться к статической переменной через вызов this объекта, но не рекомендуется
     public Car(String color2, String engine2) {
         this.count++;
@@ -26,7 +44,7 @@ public class Car {
 
     public void showColor() {
         System.out.println("Car's color is " + color);
-        //int a = price;
+//        int a = price;
     }
 
     /*
