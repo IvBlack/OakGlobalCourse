@@ -1,13 +1,15 @@
-package com.IVdev.Core2.functionaljava;
+package com.IVdev.Core2.functionalJavaByAmigos;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
-import static com.IVdev.Core2.functionaljava.Main.Gender.*;
+import static com.IVdev.Core2.functionalJavaByAmigos.Main.Gender.*;
 
+/*
+New vision onto stream API in java by AmigosCode.
+Advantage of declarative style over imperative.
+*/
 public class Main {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.IVdev.Core2.StreamAPI;
+package com.IVdev.Core2.StreamAPIbyTregulov;
 
 import java.util.*;
 import java.util.stream.Collectors;

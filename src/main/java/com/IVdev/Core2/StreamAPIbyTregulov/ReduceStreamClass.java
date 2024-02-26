@@ -1,4 +1,4 @@
-package com.IVdev.Core2.StreamAPI;
+package com.IVdev.Core2.StreamAPIbyTregulov;
 
 import java.util.ArrayList;
 import java.util.List;

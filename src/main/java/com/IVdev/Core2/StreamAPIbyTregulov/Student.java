@@ -1,4 +1,4 @@
-package com.IVdev.Core2.StreamAPI;
+package com.IVdev.Core2.StreamAPIbyTregulov;
 
 public class Student {
     private String name;
