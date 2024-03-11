@@ -1,4 +1,4 @@
-package com.IVdev.Iterators;
+package com.IVdev.Core2.Iterators;
 
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -6,7 +6,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /*
 The fail-fast iterator throws a ConcurrentModificationException
 if the collection changes during the iteration, but runs faster. 
-example fail-fast - Vector и Hashtable.
+example fail-fast - Vector Рё Hashtable.
 
 fail-safe does not raise exceptions when changing the structure of the collection, because it works with its clone.
 The fail-safe example is CopyOnWriteArrayList and the keySet iterator of the ConcurrentHashMap collection.
