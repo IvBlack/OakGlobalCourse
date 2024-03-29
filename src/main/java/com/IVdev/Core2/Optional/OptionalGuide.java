@@ -2,41 +2,40 @@ package com.IVdev.Core2.Optional;
 
 /*
 Можно воспринимать Optional, как некую коробку, обертку, в которую кладется какой-либо объект.
-Optional всего лишь контейнер: он может содержать объект некоторого типа <Т>, а может быть пустым
+Optional всего лишь контейнер: он может содержать объект некоторого типа <Т>, а может быть пустым.
+(c)DevMark
 */
 
+import java.util.Objects;
 import java.util.Optional;
 
-//Сучай работы с репозиторием данных
+//Случай работы с репозиторием данных
 public class OptionalGuide {
-    private static PersonRepository personRepository;
-
-    public OptionalGuide(PersonRepository personRepository) {
-        this.personRepository = personRepository;
-    }
-
-    //найти пользователя в базе данных по идентификатору, вывести на консоль длину имени пользователя
-//    final Optional<Person> optPerson = personRepository.findById(1L);
-//    if (optPerson.isPresent()) {
-//        final Person person = optPerson.get();
-//        final String firstName = person.getFirstName();
-//        if (firstName != null) {
-//            System.out.println("Длина твоего имени: " + firstName.length());
-//        }
-//    }
 
     public static void main(String[] args) {
-        OptionalGuide optionalGuide = new OptionalGuide(personRepository);
-        optionalGuide.calculatePerson();
+
+        //что есть Optional-контейнер по сути своей
+        Optional<Object> empty = Optional.empty();
+        System.out.println(empty.isPresent()); //false
+        System.out.println(empty.isEmpty()); //true
+
+        System.out.println("//----------------ofNullable-------------------");
+        Optional<String> hello = Optional.ofNullable("hello");
+        System.out.println(hello.isPresent());
+        System.out.println(hello.isEmpty());
+
+        System.out.println("//-----------------orElse------------------");
+        System.out.println(hello.orElse("world"));
+
+        System.out.println("//-----------------ifPresent------------------");
+        //ifPresent
+        hello.ifPresent(System.out::println);
+
+        System.out.println("//---------------ifPresentOrElse--------------------");
+        //ifPresentOrElse
+        Optional<String> ifPresent = Optional.empty();
+        ifPresent.ifPresentOrElse(System.out::println, () -> System.out.println("world"));
     }
 
-    public void calculatePerson() {
-        final Person person = personRepository.findById(1L);
-        if (person != null) {
-            final String firstName = person.getFirstName();
-            if (firstName != null) {
-                System.out.println("Длина твоего имени: " + firstName.length());
-            }
-        }
-    }
+
 }
