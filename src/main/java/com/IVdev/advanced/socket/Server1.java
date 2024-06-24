@@ -27,6 +27,7 @@ public class Server1 {
                     System.out.println("Client connected...");
                     String request = reader.readLine(); //read the request
                     String response = String.format("Your request is: %s", request);
+                    Thread.sleep(10000);
                     writer.write(response);
                     writer.newLine();
                     writer.flush(); //clear buffer
