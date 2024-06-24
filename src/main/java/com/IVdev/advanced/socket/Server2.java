@@ -15,8 +15,8 @@ public class  Server2 {
     public static void main(String[] args) throws IOException {
         try (ServerSocket serverSocket = new ServerSocket(8080))
         {
-            System.out.println("Server initialized...");
-            while(true) {
+            System.out.println("Server 2 initialized...");
+            while (true) {
                 try
                         (
                                 Socket socket = serverSocket.accept();
