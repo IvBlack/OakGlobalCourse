@@ -16,7 +16,7 @@ public class Server1 {
         try (ServerSocket serverSocket = new ServerSocket(8080))
         {
             System.out.println("Server initialized...");
-            while(true) {
+            while (true) {
                 try
                 (
                     Socket socket = serverSocket.accept();
