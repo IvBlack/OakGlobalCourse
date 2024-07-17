@@ -1,7 +1,6 @@
 package com.IVdev.javaversionfeatures;
 
 import lombok.Data;
-import lombok.Getter;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -62,7 +61,6 @@ public class Java12 {
 class Guest {
     public String name;
     public boolean participating;
-    @Getter
     public Integer participantsNumber;
     public Guest(String name, boolean participating,
                  Integer participantsNumber) {
