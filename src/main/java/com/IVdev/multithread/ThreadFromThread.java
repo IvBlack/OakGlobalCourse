@@ -4,7 +4,7 @@ package com.IVdev.multithread;
     Первый и самый простой способ создать доп.потоки в java:
     расшириться от класса Thread, переопределив метод run()
 */
-public class ThreadfromThread {
+public class ThreadFromThread {
     public static void main(String[] args) {
         Thread1 thread1 = new Thread1();
         Thread2 thread2 = new Thread2();
