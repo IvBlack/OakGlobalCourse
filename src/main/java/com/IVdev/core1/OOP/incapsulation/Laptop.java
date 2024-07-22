@@ -1,4 +1,4 @@
-package com.IVdev.core1.OOP.inheritance;
+package com.IVdev.core1.OOP.incapsulation;
 
 import com.IVdev.core1.OOP.incapsulation.Computer;
 import com.IVdev.core1.OOP.incapsulation.Ram;

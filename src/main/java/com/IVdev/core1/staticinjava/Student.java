@@ -1,4 +1,4 @@
-package com.IVdev.core1.StaticInJava;
+package com.IVdev.core1.staticinjava;
 /*
 На базовом примере - посчитать количество созданных объектов - рассмотрим
 как ведут себя static-переменные.

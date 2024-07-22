@@ -1,7 +1,5 @@
 package com.IVdev.core1.OOP.incapsulation;
 
-import com.IVdev.core1.OOP.inheritance.Laptop;
-
 public class OOPRunner {
     public static void main(String[] args) {
         //Computer computer = new Computer(new Ssd(1024), new Ram(500));

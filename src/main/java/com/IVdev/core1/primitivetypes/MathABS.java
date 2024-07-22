@@ -1,4 +1,4 @@
-package com.IVdev.core1.PrimitiveTypes;
+package com.IVdev.core1.primitivetypes;
 
 /*
 Реализуйте метод, возвращающий ответ на вопрос: правда ли, что a + b = c?

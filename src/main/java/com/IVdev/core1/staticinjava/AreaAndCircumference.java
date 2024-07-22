@@ -1,4 +1,4 @@
-package com.IVdev.core1.StaticInJava;
+package com.IVdev.core1.staticinjava;
 
 public class AreaAndCircumference {
     public static final double  PI = 3.14;

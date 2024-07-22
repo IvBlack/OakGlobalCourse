@@ -1,9 +1,5 @@
-package com.IVdev.core1.switchCases;
+package com.IVdev.core1.switchcases;
 
-
-import java.math.BigDecimal;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 /*
 Паттерн-матчинг для switch наконец-то был финализирован в java 21 и стал стабильной конструкцией языка.

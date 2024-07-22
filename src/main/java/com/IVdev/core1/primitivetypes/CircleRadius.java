@@ -1,4 +1,4 @@
-package com.IVdev.core1.PrimitiveTypes;
+package com.IVdev.core1.primitivetypes;
 
 import java.text.DecimalFormat;
 /*

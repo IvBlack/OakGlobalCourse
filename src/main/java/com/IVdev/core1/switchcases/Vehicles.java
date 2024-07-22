@@ -1,4 +1,4 @@
-package com.IVdev.core1.switchCases;
+package com.IVdev.core1.switchcases;
 
 public interface Vehicles {
     public void sout();

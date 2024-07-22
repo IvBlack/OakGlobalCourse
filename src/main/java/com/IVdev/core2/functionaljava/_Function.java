@@ -1,13 +1,13 @@
-package com.IVdev.core2.functionalJavaByAmigos;
+package com.IVdev.core2.functionaljava;
 
-import java.util.BitSet;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
 
 /*
-Function<T,R>
-Represents a function that accepts one argument and produces a result.
+    Function<T,R> interface realizations.
+    Represents a function that accepts arguments and produces a result.
+    By (c)Amigos.
 */
 public class _Function {
     public static void main(String[] args) {
@@ -25,7 +25,6 @@ public class _Function {
         System.out.println(sqrtFunc.compose(cubeFunc).apply(6));
 
         //BIFUNCTION takes 2 arguments and produces 1 result
-
     }
 
     //stuff for FUNCTION
@@ -45,10 +44,8 @@ public class _Function {
     static Function<Integer, Integer> cubeFunc = x -> x * x * x;
     //-------------------------------------------------------------------
 
-
-
     //stuff for BIFUNCTION
-    BiFunction<Integer, Integer, Integer> incrementByOneAndMultiplyBiFunction =
+    static BiFunction<Integer, Integer, Integer> incrementByOneAndMultiplyBiFunction =
             (numberToIncrementByOne, numberToMultiplyBy)
                     -> (numberToIncrementByOne + 1) * numberToMultiplyBy;
 

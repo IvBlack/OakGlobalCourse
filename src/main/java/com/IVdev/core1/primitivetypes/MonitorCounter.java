@@ -1,4 +1,4 @@
-package com.IVdev.core1.PrimitiveTypes;
+package com.IVdev.core1.primitivetypes;
 
 public class MonitorCounter {
     public static void main(String[] args) {

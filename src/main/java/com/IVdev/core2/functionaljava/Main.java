@@ -1,6 +1,6 @@
-package com.IVdev.core2.functionalJavaByAmigos;
+package com.IVdev.core2.functionaljava;
 
-import static com.IVdev.core2.functionalJavaByAmigos.Main.Gender.*;
+import static com.IVdev.core2.functionaljava.Main.Gender.*;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.IVdev.core1.PrimitiveTypes;
+package com.IVdev.core1.primitivetypes;
 
 /*
 В общем случае инициализация классов в Java проходит так:
