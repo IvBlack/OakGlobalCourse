@@ -1,6 +1,6 @@
-package com.IVdev.advanced.SOLID.OCP;
+package com.IVdev.arch.SOLID.OCP;
 
-import com.IVdev.advanced.SOLID.SR.Computer;
+import com.IVdev.arch.SOLID.SR.Computer;
 
 public class SaveComputerToFile implements SaveInterface{
     @Override

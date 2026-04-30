@@ -1,4 +1,4 @@
-package com.IVdev.advanced.SOLID.SR;
+package com.IVdev.arch.SOLID.SR;
 
 public class SavePC {
     public void saveToFile(String path, Computer cmp) {

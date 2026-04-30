@@ -1,4 +1,4 @@
-package com.IVdev.advanced.SOLID.ISP;
+package com.IVdev.arch.SOLID.ISP;
 
 public class Circle implements ICircle{
 //    @Override

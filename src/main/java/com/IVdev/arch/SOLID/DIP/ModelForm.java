@@ -1,4 +1,4 @@
-package com.IVdev.advanced.SOLID.DIP;
+package com.IVdev.arch.SOLID.DIP;
 
 public class ModelForm implements IForm {
     int id;

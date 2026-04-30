@@ -1,6 +1,6 @@
-package com.IVdev.advanced.SOLID.LSP;
+package com.IVdev.arch.SOLID.LSP;
 
-import com.IVdev.advanced.SOLID.SR.Computer;
+import com.IVdev.arch.SOLID.SR.Computer;
 
 public class OmenHP extends Computer {
 

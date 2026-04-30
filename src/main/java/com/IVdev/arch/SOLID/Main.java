@@ -1,13 +1,10 @@
-package com.IVdev.advanced.SOLID;
+package com.IVdev.arch.SOLID;
 
-import com.IVdev.advanced.SOLID.DIP.Framework;
-import com.IVdev.advanced.SOLID.DIP.IForm;
-import com.IVdev.advanced.SOLID.DIP.ModelForm;
-import com.IVdev.advanced.SOLID.LSP.OmenHP;
-import com.IVdev.advanced.SOLID.OCP.SaveComputerToDB;
-import com.IVdev.advanced.SOLID.OCP.SaveInterface;
-import com.IVdev.advanced.SOLID.SR.Computer;
-import com.IVdev.advanced.SOLID.SR.SavePC;
+import com.IVdev.arch.SOLID.DIP.Framework;
+import com.IVdev.arch.SOLID.DIP.IForm;
+import com.IVdev.arch.SOLID.DIP.ModelForm;
+import com.IVdev.arch.SOLID.LSP.OmenHP;
+import com.IVdev.arch.SOLID.SR.Computer;
 
 public class Main {
     public static void main(String[] args) {

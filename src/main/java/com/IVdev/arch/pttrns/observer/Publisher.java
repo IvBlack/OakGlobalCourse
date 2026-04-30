@@ -1,0 +1,8 @@
+package com.IVdev.arch.pttrns.observer;
+
+public interface Publisher {
+
+    public void addSubscriber(Subscriber subscriber);
+    public void removeSubscriber(Subscriber subscriber);
+    public void notifySubscriber(String txt);
+}
